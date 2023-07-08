@@ -18,5 +18,5 @@ const createUserFunctions = async (user: IUser): Promise<IUser | null> => {
 }
 
 export default {
-  createUserFunctions
+  createUserFunctions,
 }
