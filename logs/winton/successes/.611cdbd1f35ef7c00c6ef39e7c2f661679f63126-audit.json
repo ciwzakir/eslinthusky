@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\successes\\.611cdbd1f35ef7c00c6ef39e7c2f661679f63126-audit.json",
+    "files": [
+        {
+            "date": 1689012101633,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\successes\\report-11-July-2023-success.log",
+            "hash": "359502dd1d59fff1fe9c6341c37b49655511caa0bbab31f54dfe9a136ae4a9cf"
+        },
+        {
+            "date": 1689264953296,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\successes\\report-13-July-2023-success.log",
+            "hash": "946ab0cbd996abf417caa74c745285c902e03d1431ebe03dd54b861d593fd297"
+        },
+        {
+            "date": 1689271365687,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\successes\\report-14-July-2023-success.log",
+            "hash": "39972793d52c93d70ba704b4fb9fa5c9ff52bd8d1daaaf63d3b88f08348c4317"
+        },
+        {
+            "date": 1689410480013,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\successes\\report-15-July-2023-success.log",
+            "hash": "ad6e27a166a95744acd75376831179901de055925f319a879d38942fca3c8d36"
+        },
+        {
+            "date": 1689517294080,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\successes\\report-16-July-2023-success.log",
+            "hash": "e4f7206f36f2bc64a55b54e9a574f60d06ba8c83a51fc024b7db4b1031faa0cd"
+        },
+        {
+            "date": 1689957830960,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\successes\\report-21-July-2023-success.log",
+            "hash": "e8992ee0fbed89fba92103a248a66bb3bb6ca5ed695d82765ca79a4a851f4241"
+        },
+        {
+            "date": 1689966605303,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\successes\\report-22-July-2023-success.log",
+            "hash": "656b033ccac3dbd74847a1bbed7f38ca1cbddd13dece9aab8842a7ae71c64831"
+        },
+        {
+            "date": 1690128568949,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\successes\\report-23-July-2023-success.log",
+            "hash": "233f089fd178b86970268cc129127761c7a2bc7f810f46276f9f39ef2e8f47e8"
+        },
+        {
+            "date": 1690217808657,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\successes\\report-24-July-2023-success.log",
+            "hash": "3eed840d8cf80268684f3921edfd4129da586b6d70c7b817bb6cc77552c05070"
+        }
+    ],
+    "hashType": "sha256"
+}

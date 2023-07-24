@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\errors\\.8cc10f06f13cf6603241c42ce3b89a3ca68d4431-audit.json",
+    "files": [
+        {
+            "date": 1689012101646,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\errors\\raisedOn-11-July-2023-error.log",
+            "hash": "f172c72d194b7d1c4ed117b152b580c06f79aceb72eb7a0972514cceac2adeb0"
+        },
+        {
+            "date": 1689264953309,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\errors\\raisedOn-13-July-2023-error.log",
+            "hash": "21d5cd632c79510677beceb976dccbe6e56c9bd7fcc91a2067b27212e655aabf"
+        },
+        {
+            "date": 1689271365694,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\errors\\raisedOn-14-July-2023-error.log",
+            "hash": "6eac6b5aa16c9f46ecc0c8ce5eee0109f0dcef7a18338b7340dbd4bcec8930f8"
+        },
+        {
+            "date": 1689410480028,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\errors\\raisedOn-15-July-2023-error.log",
+            "hash": "b5c823fb2ae95ee47152f70b3cce3278c94a6bf3268a9053c69493db5d6ef07c"
+        },
+        {
+            "date": 1689517294092,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\errors\\raisedOn-16-July-2023-error.log",
+            "hash": "84ccabb75b0bac63595e6a038af1494adbc8e2312ff37226d865ab54c2b9015d"
+        },
+        {
+            "date": 1689957830973,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\errors\\raisedOn-21-July-2023-error.log",
+            "hash": "ea93f24ce3d0100e575491bab61644e53f56fa1f41e42c3c285a3f852ec700dc"
+        },
+        {
+            "date": 1689966605318,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\errors\\raisedOn-22-July-2023-error.log",
+            "hash": "bc3749af05f85898c57588e6336921003399322ea6e5dbd467cd3f82984f9e80"
+        },
+        {
+            "date": 1690128568963,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\errors\\raisedOn-23-July-2023-error.log",
+            "hash": "052c54e0cb543a5c96128fd023de8cf84b6b1758a2e654c6dbe048a9c8d8580f"
+        },
+        {
+            "date": 1690217808674,
+            "name": "C:\\Users\\USER\\Leveltwo\\kite\\logs\\winton\\errors\\raisedOn-24-July-2023-error.log",
+            "hash": "b2541d5e89a32a3e590798efdc3143f20a6b00fd817dc53a7500cd2942fa48d6"
+        }
+    ],
+    "hashType": "sha256"
+}
