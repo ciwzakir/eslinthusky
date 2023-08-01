@@ -3,16 +3,25 @@ import validateUserRequest from '../../middlewares/userCreate.validation';
 import { AcademicSemesterZodSchemaValidation } from './academicSemes.validation';
 import { AcademicSemesterController } from './academicSemester.controller';
 
-const semesterRouter = express.Router();
+const router = express.Router();
 
-// userRouter.post('/create-user', UserController.createUser);
-
-semesterRouter.post(
+router.post(
   '/create',
   validateUserRequest(
     AcademicSemesterZodSchemaValidation.createAcademicSemesterZodSchema,
   ),
   AcademicSemesterController.createSemester,
 );
+router.get('/all/:id', AcademicSemesterController.getSingleSemesterData);
+router.patch(
+  '/all/:id',
+  validateUserRequest(
+    AcademicSemesterZodSchemaValidation.updateteAcademicSemesterZodSchema,
+  ),
+  AcademicSemesterController.updateSemesterData,
+);
+router.delete('/all/:id', AcademicSemesterController.deleteSemesterData);
 
-export const semesterRoutes = semesterRouter;
+router.get('/all', AcademicSemesterController.getSemesterData);
+
+export const semesterRoutes = router;

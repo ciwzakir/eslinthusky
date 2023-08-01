@@ -6,6 +6,7 @@ import { erroLogger } from '../../shared/logger';
 import ApiError from '../../errors/ApiError';
 import zodErrorHandler from '../../errors/zodErrorHandler';
 import { ZodError } from 'zod';
+import castErrorHandler from '../../errors/castErrorHandler';
 
 const globalErrorHandlerMiddleware: ErrorRequestHandler = (
   error,
@@ -39,6 +40,11 @@ const globalErrorHandlerMiddleware: ErrorRequestHandler = (
       : [];
   } else if (error instanceof ZodError) {
     const simplifiedError = zodErrorHandler(error);
+    statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
+  } else if (error?.name === 'CastError') {
+    const simplifiedError = castErrorHandler(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;

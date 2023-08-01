@@ -7,3 +7,27 @@
 //   // next("Express Next Function")
 // })
 // global Error Handleer
+// const searchAndCodition = [
+//   {
+//     $or: [
+//       {
+//         title: {
+//           $regex: searchTerm,
+//           $options: 'i',
+//         },
+//       },
+//       {
+//         code: {
+//           $regex: searchTerm,
+//           $options: 'i',
+//         },
+//       },
+//       // {
+//       //   year: {
+//       //     $regex: searchTerm,
+//       //     $options: 'i',
+//       //   },
+//       // },
+//     ],
+//   },
+// ];
